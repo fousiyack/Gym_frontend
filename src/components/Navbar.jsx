@@ -26,7 +26,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="relative bg-black h-20">
+    <div className="relative bg-black h-20 w-screen">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">

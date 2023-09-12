@@ -11,16 +11,16 @@ const Banner = () => {
     alignItems: 'center'
   };
 
-  const imageStyle = {
-    maxWidth: '100% !important',
-    height: '268px',
+  // const imageStyle = {
+  //   maxWidth: '100% !important',
+  //   height: '268px',
 
-    // Add any additional styling as per your requirement
-  };
+  //   // Add any additional styling as per your requirement
+  // };
 
   return (
     <div className='relative w-screen h-screen '  >
-      <img className='w-screen h-screen' src="/src/assets/images/banner2.webp" alt="" />
+      <img className='w-screen h-screen  sm:w-full md:w-screen lg:w-screen xl:w-full' src="/src/assets/images/banner2.webp" alt="" />
       <div className=' absolute top-28 w-1/2 text-white'>
 
       {/* <h1 className=' text-4xl pl-5'>Get the best part of your day</h1>

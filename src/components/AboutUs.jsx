@@ -20,10 +20,12 @@ function AboutUs() {
             Currently My health Fitness is one of the largest Fitness camp in
             India .
             <br />
+           
             It is divided into an outdoor training fitness facility, indoor gym,
             strongman area, assault course, and Healths Kitchen. Further more
             Titan has a three story indoor gym with a gear shop plus onsite
             accommodation.
+          
             <br />
             The indoor gym has a protein bar and gear shop located in the
             reception. Our vision is to offer you the customer the highest level

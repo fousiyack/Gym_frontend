@@ -23,7 +23,7 @@ const Trainers = () => {
   return (
     <div className="bg-gray-100">
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 py-8">
-        <h2 className="text-bold text-10xl text-center text-red-500 sm:text-4xl p-6">
+        <h2 className="text-bold  text-center text-red-500 font-black sm:text-4xl p-6">
           Trainers
         </h2>
 

@@ -32,9 +32,9 @@ const Events = () => {
 
   return (
     <div className="bg-white my-4">
-      <h2 class="text-bold text-10xl text-center text-red-500 sm:text-4xl">
+      {/* <h2 class="text-bold  font-black text-center text-red-500 sm:text-4xl">
         Events
-      </h2>
+      </h2> */}
       <div className="flex flex-wrap justify-center">
         {eventsList.map((event) => (
           <div
