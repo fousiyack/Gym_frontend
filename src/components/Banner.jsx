@@ -1,14 +1,14 @@
-import React from 'react';
-import bannerImage from '../assets/images/banner.jpg'
+import React from "react";
+import bannerImage from "../assets/images/banner.jpg";
 
 const Banner = () => {
-//   const bannerImage =  '/src/assets/images/bg.png';
-//   '/path-to-static-image.jpg';
+  //   const bannerImage =  '/src/assets/images/bg.png';
+  //   '/path-to-static-image.jpg';
 
   const bannerStyle = {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center'
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
   };
 
   // const imageStyle = {
@@ -19,28 +19,26 @@ const Banner = () => {
   // };
 
   return (
-    <div className='relative w-screen h-screen '  >
-      <img className='w-screen h-screen  sm:w-full md:w-screen lg:w-screen xl:w-full' src="/src/assets/images/banner2.webp" alt="" />
-      <div className=' absolute top-28 w-1/2 text-white'>
-
-      {/* <h1 className=' text-4xl pl-5'>Get the best part of your day</h1>
+    <div className="relative w-screen h-screen ">
+      <img
+        className="w-screen h-screen  sm:w-full md:w-screen lg:w-screen xl:w-full"
+        src="/src/assets/images/banner2.jpg"
+        alt=""
+      />
+      <div className=" absolute top-28 w-1/2 text-white">
+        {/* <h1 className=' text-4xl pl-5'>Get the best part of your day</h1>
       <h1 className=' pl-5 text-2xl pt-3 text-green-200'>We provide serious fitness but within a fun and friendly, safe space.</h1>
       <div className='w-full flex justify-center '>
 
       <button className=" bg-red-700 rounded-lg p-2"> JOIN NOW
       </button> 
       </div>*/}
-      
       </div>
-      
-
     </div>
   );
 };
 
 export default Banner;
-
-
 
 // import React from "react";
 
@@ -67,7 +65,6 @@ export default Banner;
 //   </div>
 // </div>
 
-      
 //     </div>
 //   );
 // }
