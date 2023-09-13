@@ -1,5 +1,6 @@
 import React from "react";
-import bannerImage from "../assets/images/banner.jpg";
+import bannerImage from "../assets/images/banner2.jpg";
+
 
 const Banner = () => {
   //   const bannerImage =  '/src/assets/images/bg.png';
@@ -22,7 +23,7 @@ const Banner = () => {
     <div className="relative w-screen h-screen ">
       <img
         className="w-screen h-screen  sm:w-full md:w-screen lg:w-screen xl:w-full"
-        src="/src/assets/images/banner2.jpg"
+        src={bannerImage}
         alt=""
       />
       <div className=" absolute top-28 w-1/2 text-white">
